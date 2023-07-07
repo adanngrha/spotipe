@@ -1,0 +1,39 @@
+.song-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.song {
+  width: 30%;
+  margin-bottom: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+button {
+  background-color: #1db954;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form {
+  margin-top: 50px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"], input[type="file"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  width: 100%;
+}
