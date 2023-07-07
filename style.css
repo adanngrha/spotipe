@@ -29,20 +29,3 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
-
-form {
-  margin-top: 50px;
-}
-
-label {
-  display: block;
-  margin-bottom: 10px;
-}
-
-input[type="text"], input[type="file"] {
-  padding: 5px;
-  border-radius: 5px;
-  border: 1px solid #ddd;
-  margin-bottom: 20px;
-  width: 100%;
-}
