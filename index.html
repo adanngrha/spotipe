@@ -1,50 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Spotify</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1>Good Evening, Ardana!</h1>
-  <h2>Songs</h2>
-  <div class="song-list">
-    <div class="song">
-      <h3>Sad to Breath</h3>
-      <p>The Japanese House</p>
-      <button>Add to Playlist</button>
+<html>
+  <head>
+    <title>Music Player Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="sidebar">
+      <h1>Your Library</h1>
+      <ul>
+        <li class="playlist">
+          <img class="playlist-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSnYxX3vASUYtlZwCDShWQMc669ZUOW7imuHqZ8tZnABLW85Ql3soBRiAL-KjBm2kKoNE&usqp=CAU">
+          <a>this is what heatbreaks feels like</a>
+        </li>
+        <li class="playlist">
+          <img src="https://upload.wikimedia.org/wikipedia/en/7/7f/LANY_%28album%29.png" alt="" class="playlist-img">
+          <a>loving you always</a>
+        </li>
+        <li class="playlist">
+          <img src="https://store.taylorswift.com/cdn/shop/products/DD1_519a7456-20b9-41fd-aa58-e9fba6c25c82_600x.png?v=1665148836" alt="" class="playlist-img">
+          <a>midnight drive</a>
+        </li>
+      </ul>
     </div>
-    <div class="song">
-      <h3>Seasons</h3>
-      <p>wave to earth</p>
-      <button>Add to Playlist</button>
+    
+    <div class="main">
+      <h1>Top Played Songs</h1>
+      <div class="song-list">
+        <div class="song">
+          <img src="https://media.pitchfork.com/photos/64932b30e7a8aa8db8026ea6/1:1/w_320,c_limit/The%20Japanese%20House-%20In%20the%20End%20It%20Always%20Does%20.jpeg" alt="Album 1">
+          <h3>Sunshine Baby</h3>
+          <p>The Japanese House</p>
+          <button class="add">Add to Playlist</button>
+        </div>
+        <div class="song">
+          <img src="https://media.pitchfork.com/photos/64932b30e7a8aa8db8026ea6/1:1/w_320,c_limit/The%20Japanese%20House-%20In%20the%20End%20It%20Always%20Does%20.jpeg" alt="Album 2">
+          <h3>One for sorrow, two for Joni Jones</h3>
+          <p>The Japanese House</p>
+          <button class="add">Add to Playlist</button>
+        </div>
+        <div class="song">
+          <img src="https://media.pitchfork.com/photos/64932b30e7a8aa8db8026ea6/1:1/w_320,c_limit/The%20Japanese%20House-%20In%20the%20End%20It%20Always%20Does%20.jpeg" alt="Album 3">
+          <h3>Sad to Breathe</h3>
+          <p>The Japanese House</p>
+          <button class="add">Add to Playlist</button>
+        </div>
+      </div>
+      <h1>Song Recommendations</h1>
+      <div class="song-list">
+        <div class="song">
+          <img src="https://media.pitchfork.com/photos/5c7425267ad40308b4a8835c/1:1/w_320,c_limit/JapaneseHouse_GoodAtFalling.jpg" alt="Album 4">
+          <h3>We Talk All the Time</h3>
+          <p>The Japanese House</p>
+          <button class="add">Add to Playlist</button>
+        </div>
+        <div class="song">
+          <img src="https://media.pitchfork.com/photos/5c7425267ad40308b4a8835c/1:1/w_320,c_limit/JapaneseHouse_GoodAtFalling.jpg" alt="Album 5">
+          <h3>Follow My Girl</h3>
+          <p>The Japanese House</p>
+          <button class="add">Add to Playlist</button>
+        </div>
+        <div class="song">
+          <img src="https://media.pitchfork.com/photos/5c7425267ad40308b4a8835c/1:1/w_320,c_limit/JapaneseHouse_GoodAtFalling.jpg" alt="Album 6">
+          <h3>Maybe You're the Reason</h3>
+          <p>The Japanese House</p>
+          <button class="add">Add to Playlist</button>
+        </div>
+      </div>
     </div>
-    <div class="song">
-      <h3>Robbers</h3>
-      <p>The 1975</p>
-      <button>Add to Playlist</button>
+    
+    <div class="music-player">
+      <div class="music-playing">
+        <img src="https://media.pitchfork.com/photos/64932b30e7a8aa8db8026ea6/1:1/w_320,c_limit/The%20Japanese%20House-%20In%20the%20End%20It%20Always%20Does%20.jpeg" alt="Spotify Logo">
+        <ul>
+          <p class="playing">Touching Yourself</p>
+          <p class="playing">The Japanese House</p>
+        </ul>
+      </div>
+      <audio src="song.mp3" controls autoplay="autoplay"></audio>
     </div>
-  </div>
-  
-  <h2>Most Played Songs</h2>
-  <div class="song-list">
-    <div class="song">
-      <h3>Always</h3>
-      <p>Daniel Caesar</p>
-      <button>Add to Playlist</button>
-    </div>
-    <div class="song">
-      <h3>Die For You</h3>
-      <p>The Weeknd</p>
-      <button>Add to Playlist</button>
-    </div>
-    <div class="song">
-      <h3>High School in Jakarta</h3>
-      <p>NIKI</p>
-      <button>Add to Playlist</button>
-    </div>
-  </div>
-  
-</body>
+
+  </body>
 </html>
